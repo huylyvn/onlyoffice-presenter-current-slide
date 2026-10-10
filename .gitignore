@@ -1,0 +1,10 @@
+# Build outputs / working checkouts (never committed)
+/presenter-build/
+/presenter-desktop/
+/web-apps/
+/sdkjs/
+/.wt/
+node_modules/
+*.raw.js
+*.min.js
+*.banner.js

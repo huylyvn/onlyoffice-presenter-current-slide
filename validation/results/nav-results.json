@@ -1,0 +1,34 @@
+[
+  {
+    "id": "N0",
+    "name": "presenter-starts-5",
+    "exp": 5,
+    "act": 5,
+    "pass": true,
+    "text": "00:00:12 Reset End slideshow Slide 5 of 12"
+  },
+  {
+    "id": "N-dem_id_next",
+    "name": "dem_id_next->6",
+    "exp": 6,
+    "act": 6,
+    "pass": true,
+    "text": "00:00:15 Reset End slideshow Slide 6 of 12"
+  },
+  {
+    "id": "N-dem_id_next",
+    "name": "dem_id_next->7",
+    "exp": 7,
+    "act": 7,
+    "pass": true,
+    "text": "00:00:18 Reset End slideshow Slide 7 of 12"
+  },
+  {
+    "id": "N-dem_id_prev",
+    "name": "dem_id_prev->6",
+    "exp": 6,
+    "act": 6,
+    "pass": true,
+    "text": "00:00:21 Reset End slideshow Slide 6 of 12"
+  }
+]

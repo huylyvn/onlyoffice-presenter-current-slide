@@ -1,0 +1,88 @@
+[
+  {
+    "id": "T2",
+    "name": "presenter-view-from-slide-5",
+    "expected": 5,
+    "actual": 5,
+    "pass": true,
+    "seq": [
+      5
+    ],
+    "repText": "00:00:11 Reset End slideshow Slide 5 of 12"
+  },
+  {
+    "id": "T3",
+    "name": "presenter-view-from-slide-1",
+    "expected": 1,
+    "actual": 1,
+    "pass": true,
+    "seq": [
+      1,
+      1
+    ],
+    "repText": "00:00:11 Reset End slideshow Slide 1 of 12"
+  },
+  {
+    "id": "T4",
+    "name": "from-beginning-from-slide-5",
+    "expected": 1,
+    "actual": 5,
+    "pass": false,
+    "seq": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "T5",
+    "name": "from-current-from-slide-5",
+    "expected": 5,
+    "actual": 5,
+    "pass": true,
+    "seq": [
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6
+    ]
+  },
+  {
+    "id": "T6",
+    "name": "presenter-view-from-final-slide-12",
+    "expected": 12,
+    "actual": 12,
+    "pass": true,
+    "seq": [
+      12,
+      12,
+      12,
+      12,
+      12
+    ],
+    "repText": "00:00:11 Reset End slideshow Slide 12 of 12"
+  },
+  {
+    "id": "T7",
+    "name": "go-to-slide-1-in-open-presenter",
+    "expected": 1,
+    "actual": 1,
+    "pass": true,
+    "seq": [
+      12,
+      12,
+      12,
+      12,
+      12,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+]

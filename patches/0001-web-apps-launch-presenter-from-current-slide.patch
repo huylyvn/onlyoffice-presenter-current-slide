@@ -1,0 +1,26 @@
+diff --git a/apps/presentationeditor/main/app/controller/Statusbar.js b/apps/presentationeditor/main/app/controller/Statusbar.js
+index 4350d58f..c46034a8 100644
+--- a/apps/presentationeditor/main/app/controller/Statusbar.js
++++ b/apps/presentationeditor/main/app/controller/Statusbar.js
+@@ -170,7 +170,7 @@ define([
+                     this.onPreview(this.api.getCurrentPage(), false, true);
+                     break;
+                 case 2:
+-                    this.onPreview(0, true, false);
++                    this.onPreview(this.api.getCurrentPage(), true, true);
+                     break;
+             }
+         },
+diff --git a/apps/presentationeditor/main/app/controller/Toolbar.js b/apps/presentationeditor/main/app/controller/Toolbar.js
+index cf23bd08..577d5d43 100644
+--- a/apps/presentationeditor/main/app/controller/Toolbar.js
++++ b/apps/presentationeditor/main/app/controller/Toolbar.js
+@@ -1167,7 +1167,7 @@ define([
+                     this.onPreview(this.api.getCurrentPage(), false, true);
+                 break;
+                 case 2:
+-                    this.onPreview(0, true, false);
++                    this.onPreview(this.api.getCurrentPage(), true, true);
+                 break;
+                 case 3:
+                     var win,

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "T4b",
+    "name": "from-beginning-from-slide-5",
+    "expected": 1,
+    "actual": 1,
+    "pass": true,
+    "seq": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "T5b",
+    "name": "from-current-from-slide-5",
+    "expected": 5,
+    "actual": null,
+    "pass": false,
+    "seq": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "T5b-final",
+    "name": "from-current-final-slide-stable-at-5",
+    "expected": 5,
+    "actual": 5,
+    "pass": true,
+    "seq": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "id": "T8",
+    "name": "presenter-starts-5",
+    "expected": 5,
+    "actual": 5,
+    "pass": true,
+    "seq": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "repText": "00:00:12 Reset End slideshow Slide 5 of 12"
+  },
+  {
+    "id": "T8-next",
+    "name": "presenter-next-goes-to-6",
+    "expected": 6,
+    "actual": 5,
+    "pass": false,
+    "repText": "00:00:15 Reset End slideshow Slide 5 of 12"
+  },
+  {
+    "id": "T8-prev",
+    "name": "presenter-prev-back-to-5",
+    "expected": 5,
+    "actual": 5,
+    "pass": true,
+    "repText": "00:00:19 Reset End slideshow Slide 5 of 12"
+  },
+  {
+    "id": "T8-prev2",
+    "name": "presenter-prev-goes-to-4",
+    "expected": 4,
+    "actual": 5,
+    "pass": false,
+    "repText": "00:00:22 Reset End slideshow Slide 5 of 12"
+  }
+]
